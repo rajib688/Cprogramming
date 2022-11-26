@@ -35,7 +35,7 @@ int main()
         mid = (low + high) / 2;
         if (value == a[mid])
         {
-           return printf("your element has been match of element no. %d",mid+1);
+           return printf("your element has been match of element no. %d ",mid+1);
         }
         else if (value < a[mid])
         {
@@ -46,5 +46,5 @@ int main()
         }
         low++;
     }
-    return 0;
+    return printf("Sorry not found !.");
 }
